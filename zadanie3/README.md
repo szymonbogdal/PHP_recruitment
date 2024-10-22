@@ -10,5 +10,5 @@ aby nie dopuścić do redundancji danych, błędów w danych, niespójności w d
 ## Elementy weryfikacyjne
  - walidacja adresu email
  - sprawdzenie które wartości są wymagane w zależności od typu rejestracji.
- - sprawdzanie czy data urodzenia nie jest datą przyszłą, bądź zbyt odległom.
+ - sprawdzanie czy data urodzenia nie jest datą przyszłą, bądź zbyt odległą.
  - walidacja NIPu.
