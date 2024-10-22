@@ -35,7 +35,7 @@ Nie można wpisać wniosku na dzień w którym nie ma okresu zatrudnienia
 #### Przyczyna
   - Błąd wskazujący na nieudany eksport danych do systemu finansowo-księgowego Sage ERP. Kod błędu "-1" zazwyczaj oznacza ogólny błąd wykonania operacji
 #### Rozwiązanie
-  - Wprowadzenie mechanizmu obłsugi błędów
+  - Wprowadzenie mechanizmu obsługi błędów
   - Implementacja szczegółowego logowania
   - Walidacja danych przed eksportem
 ## Podpunkt E
@@ -44,10 +44,10 @@ Failed to load resource: net::ERR_FAILED
 #### Przyczyna
   - Ogólny błąd sieciowy który mógł zostać spowodowany przez:
     - Problemy z połączeniem sieciowym
-    - Błedy CORS
-    - Niedostępnośc zasobu
+    - Błędy CORS
+    - Niedostępność zasobu
     - Problemy z certyfikatem SSL
 #### Rozwiązanie
-  - Dodać obługę błędów wraz z komuniaktami dla użytkownika
+  - Dodać obsługę błędów wraz z komunikatami dla użytkownika
   - Jeżeli aplikacja korzysta z różnych domen sprawdzić konfigurację CORS
-  - Zaimplementować mechanizm ponowncyh prób
+  - Zaimplementować mechanizm ponownych prób
